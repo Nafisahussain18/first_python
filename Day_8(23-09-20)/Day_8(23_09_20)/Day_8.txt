@@ -1,0 +1,58 @@
+Python  is purely an object oriented programming laguage.
+ Almost every thing in python is an object, with its own properties and methods.
+
+ A class is like an object constructor or a blueprint for creating an object.
+ 
+ Constructor:
+    Each and every classs have a default constructor.
+    Have a function with exactly the same name of your class name.
+    This function automatically invoked during the time of object creation.
+
+
+                                    Sample
+
+                            View()          a, b
+
+                
+                instance : Sample() : o1,o2,o3
+
+                Three temporary memory will be created in your heap memory.
+
+Synatx:
+    class clas_name:
+        member function, member variables
+
+    
+    Condition:
+        You should use the class keyword.
+        Dont use any keywords as a class name.
+        Dont leave any space between the class name.
+        No special characters.
+        Always use the underscore between the words and make the first letter as the capital letter.
+
+        A Function inside a class should always carry a parameter called self as first parameter for all the functins.
+
+    Rules:
+        We cant assign a calss variable directly inside the class.
+        Initialize the class variables inside the constructor.
+
+        __init__() : Magical function > Initialize your cclass variable at the time of object creation itself.
+            only initialize the class variable.
+
+
+OOPS's Concepts:
+    Inheritance
+    Polymorphism
+    Encapsulation
+
+    Exception Handling.
+    File Handling.
+
+    Python GUI : Tkinter
+
+    Inheritance:
+        Inheritance allows us to define a class that inherites all the methods and the properties from another class.
+        Parent class: Is the class being inherited from, also called as a base class.
+        Child Class : Is the class that inherits all the properties and methods from another class, also called as derived class.
+
+        pass : Its is a keyword. T create an empty class without any member variables and functions.
